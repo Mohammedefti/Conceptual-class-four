@@ -11,13 +11,14 @@
 }
 
 .navbar-main{
-border: 1px solid red;
+/* border: 1px solid red; */
 display: flex;
 justify-content: space-between;
 max-width: 1200px;
 background-color: rgb(71, 85, 105);
 margin: 0 auto;
 padding: 20px;
+color: white;
 }
 
 .nav-menu-btn{
@@ -27,6 +28,9 @@ padding: 20px;
     border: none;
     border-radius: 5px;
     margin-left: 10px;
+}
+.nav-hamburger-menu{
+    display: none;
 }
 
 /* navbar ends here */
